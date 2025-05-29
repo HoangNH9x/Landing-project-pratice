@@ -48,20 +48,25 @@ a {
 
 /* Header */
 
-.header .body {
-  display: flex;
-  align-items: center;
-  padding: 36px 0 8px;
+.header {
+  background: white;
 }
 
 .header.fixed {
   position: sticky;
-  top: -32px;
-  z-index: 1;
+  top: -25px;
+  z-index: 999;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 50px 0 12px;
+  
 }
 
 .nav ul {
-  display: flex:
+  display: flex;
 }
 
 .nav {
