@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -21,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-.header .main-content {
+.main-content {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -29,9 +31,10 @@ a {
 }
 
 .btn {
-  width: 108px;
+  display: inline-block;
+  min-width: 108px;
   height: 48px;
-  padding: 8px 18px;
+  padding: 15px 10px;
   flex-shrink: 0;
   border-radius: 6px;
   border: 1px solid var(--primary-color);
@@ -92,6 +95,7 @@ a {
 }
 
 .header .action-link {
+  display: inline-block;
   margin-right: 24px;
   color: #494949;
   text-align: center;
@@ -101,10 +105,9 @@ a {
 
 /* Hero */
 .hero {
-  width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  max-width: calc(100% - 48px);
+  padding: 0 0 93px 0;
 }
 /* Hero left */
 .hero .main-content {
@@ -312,4 +315,38 @@ a {
   border-radius: 33px;
   flex-shrink: 0;
   background: #1ebfc1;
+}
+
+/* Features */
+.features {
+  margin: 130px 281px 0px 135px;
+}
+
+.features .main-content {
+  width: 1024px;
+}
+
+.features .heading {
+  color: #767e7e;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.features .intro {
+  width: 577px;
+  padding: 18px 0 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+
+.features .desc {
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
 }
