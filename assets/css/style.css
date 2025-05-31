@@ -6,6 +6,8 @@
 
 :root {
   --primary-color: #1ebfc1;
+  --second-color: #FF947A;
+  --third-color: #BF83FF;
 }
 
 html {
@@ -349,4 +351,82 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: normal;
+}
+.features-items{
+  margin-top: 80px;
+  margin-left: 0;
+  position: relative;
+}
+
+
+.features-items .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.features-items img {
+  position: relative;
+  bottom: -27px;
+    left: 27.1px;
+}
+
+
+
+.features-items .icon-background  {
+display: inline-block;
+width: 102px;
+height: 106px;
+border-radius: 18px;
+background: #FFC147;
+}
+
+.features-items .sub-content {
+  padding: 26px 0 16px;
+  color: #0D1111;
+font-size: 2rem;
+font-weight: 600;
+line-height: normal;
+}
+
+.features-items .desc {
+  width: 168px;
+  color: #9DA6A5;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 1.69; /* 168.75% */
+}
+
+/* Courses */
+.course {
+  margin-top: 130px;
+}
+
+.course .heading {
+  color: #767E7E;
+font-size: 1.2rem;
+letter-spacing: 3px;
+font-weight: 700;
+line-height: normal;
+}
+
+.course .intro {
+  color: #0D1111;
+font-size: 4.2rem;
+font-weight: 700;
+line-height: normal;
+}
+
+.course .desc {
+  color: #767E7E;
+font-size: 1.8rem;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+
+.course .link a {
+  color: #1EBFC1;
+font-size: 1.4rem;
+font-weight: 700;
+line-height: normal;
 }
