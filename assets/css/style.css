@@ -442,23 +442,31 @@ line-height: normal;
   text-decoration: underline;
 }
 
-/* course-media */
-.course-media .body {
-  margin-top: 79px;  
-  display: flex;
-  gap: 0;
+.course .course-media {
+  margin-top: 79px;
+ 
 }
 
 
 
-.course-media .second-content .img-media {
+
+
+
+
+
+
+
+
+
+
+/* .course-media .second-content .img-media {
   width: 359px;
   height: 393px;
   object-fit: cover;
   border-radius: 8px;
   opacity: 0.35;
   background: #D0EFED;
-}
+} */
 
 
 
