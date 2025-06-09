@@ -678,17 +678,66 @@ figcaption {
 }
 /* feedback-right */
 .feedback-right {
+  position: relative;
   margin-left: 267px;
 }
 
-.feedback .feedback-right .avatar {
-  width: 100px;
-  height: 100px;
+.feedback .feedback-right .avatar.medium-size {
+  position: absolute;
+  top: -48px;
+  left: -93px;
+  width: 92px;
+  height: 92px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .feedback .feedback-right .avatar.big-size {
+  position: absolute;
+  top: 85px;
+  left: 184px;
   width: 235px;
   height: 235px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .feedback-right .avatar:nth-child(3) {
+  position: absolute;
+  top: -6px;
+  left: 441px;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .feedback-right .avatar:nth-child(4) {
+  position: absolute;
+   top: 241px;
+    left: -216px;
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .feedback-right .avatar:nth-child(5) {
+  position: absolute;
+  bottom: 3%;
+   left: 411px;
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .feedback-right .avatar:nth-child(6) {
+  position: absolute;
+  top: 96%;
+   left: 20%;
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 50%;
 }
