@@ -23,6 +23,7 @@ body {
 /* Common (class chung) */
 a {
   text-decoration: none;
+  color: #FFFF;
 }
 
 .main-content {
@@ -741,3 +742,78 @@ figcaption {
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* account */
+
+.account {
+  margin-top: 167px;
+  background: #DEF6F5;
+  padding: 76px 135px 133px;
+}
+
+.account .title {
+ color: #070707;
+font-size: 4.2rem;
+font-weight: 700;
+}
+
+.account .desc {
+color: #767E7E;
+font-size: 1.8rem;
+font-weight: 400;
+margin-top: 40px;
+}
+
+.account .body .sub-content {
+  display: flex;    
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account .action .btn-action  {
+  padding: 20px 41px 20px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  background: var(--primary-color);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+
+.account .action .btn-action:hover {
+  opacity: 0.7;
+  scale: 1.1;
+}
+
+/* footer */
+.footer {
+  margin-top: 140px;  
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+display: inline-block;
+color: #2E2E2E;
+font-weight: 500;
+font-size: 1.8rem;
+padding-bottom: 25px;
+}
+
+.footer .list li {
+ color: #535353;
+font-weight: 400;
+font-size: 1.6rem;
+padding-bottom: 16px;
+}
+
+.footer .row .column a {
+  color: currentColor;
+}
+
+
