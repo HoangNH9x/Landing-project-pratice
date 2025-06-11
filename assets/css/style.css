@@ -816,4 +816,25 @@ padding-bottom: 16px;
   color: currentColor;
 }
 
+.footer .row .column .list a {
+  position: relative;
+  text-align: justify;
+  transition: ease 0.5;
+}
+
+.footer .row .column .list a:hover {
+ text-decoration: underline;
+ color: black;
+}
+
+.footer .row .column .list img {
+  position: relative;
+  top: 5px;
+  margin-right: 9px;
+}
+
+
+
+
+
 
